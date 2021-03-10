@@ -17,9 +17,9 @@ services:
       - nextcloud
       - moodle
     volumes:
-      - clam:/var/lib/clamav
-      - claml:/var/log/clamav
+      - clam-lib:/var/lib/clamav
+      - clam-log:/var/log/clamav
 
 volumes:
-  clam:
-  claml:
+  clam-lib:
+  clam-log:
